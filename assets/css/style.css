@@ -127,7 +127,7 @@ h2 {
 
 .main-section {
   float: left;
-  width: 100%;
+  width: 60%;
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
@@ -218,11 +218,25 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 980px) {
+  #main-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .main-section {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  #main-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .auth-image {
     width: 300px;
+  }
+  .main-section {
+    width: 100%;
   }
 }
 
@@ -230,7 +244,15 @@ input[type="submit"] {
   #masthead {
     position: static;
   }
+  #main-container {
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .auth-image {
+    width: 100%;
+  }
+  .main-section {
     width: 100%;
   }
 }
