@@ -219,6 +219,10 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 980px) {
+  #masthead {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   #main-container {
     padding-left: 40px;
     padding-right: 40px;
@@ -235,6 +239,10 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 768px) {
+  #masthead {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   #main-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -250,6 +258,18 @@ input[type="submit"] {
 @media screen and (max-width: 640px) {
   #masthead {
     position: static;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #logo {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  nav {
+    float: none;
+    margin: 20px;
+    text-align: center;
   }
   #main-container {
     padding-top: 0;
